@@ -1,0 +1,98 @@
+html {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+div.navbar {
+    position: fixed;
+    background-color: #e36868;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+h1.title {
+    font-family: 'Satisfy', sans-serif;
+    font-size: 40px;
+    margin-left: 100px;
+    position: relative;
+    top: 0;
+    display: inline-block;
+    float: left;
+}
+
+img.brush {
+    display: inline-block;
+    height: 40px;
+    padding-top: 30px;
+}
+
+div.feed {
+    top: 0;
+    left: 0;
+    align-self: center;
+    overflow-y: scroll;
+    height: 100vh;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+/*    border: solid black 1px;*/
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #eee;
+}
+
+div.block {
+    padding: 10px;
+    padding-bottom: 50px;
+    width: 80%;
+    position: relative;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.user {
+    border: solid #ddd 1px;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+div.photo {
+    border-left: solid #ddd 1px;
+    border-right: solid #ddd 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+div.likes {
+    border: solid #ddd 1px;
+    border-top: none;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+img.profilepic {
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    margin-top: 7.5px;
+    float: left;
+}
+
+p.username {
+    margin-left: 37.5px;
+    overflow: auto;
+    display: block;
+}
+
+img.photo {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
